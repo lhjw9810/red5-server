@@ -66,14 +66,9 @@
     </properties>
     <repositories>
         <repository>
-            <id>sonatype-snapshots</id>
-            <name>Sonatype Snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots</url>
-        </repository>
-        <repository>
             <id>sonatype-releases</id>
             <name>Sonatype Releases</name>
-            <url>http://oss.sonatype.org/content/repositories/releases</url>
+            <url>http://192.168.44.204:8081/repository/maven-central/</url>
         </repository>
     </repositories>
     <build>
